@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.product-image {
+  height: 220px;
+  object-fit: contain;
+}
+
+.details-image {
+  width: 100%;
+  max-width: 320px;
+  height: 320px;
+  object-fit: contain;
+}
+
+.card-title {
+  line-height: 1.4;
+}
