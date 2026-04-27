@@ -1,80 +1,63 @@
+FakeStore E-Commerce App
 
-# 🛍 FakeStore E-Commerce App
-
-## 📌 Overview
-This is a React-based e-commerce application that interacts with the FakeStoreAPI.  
+Overview
+This is a React-based e-commerce application that interacts with the FakeStoreAPI.
 Users can browse products, view details, and perform create, update, and delete operations.
 
-⚠️ Note: FakeStoreAPI is a mock API. Changes (POST, PUT, DELETE) appear successful but are not permanently saved.
+Note: FakeStoreAPI is a mock API. Changes such as POST, PUT, and DELETE appear successful but are not permanently saved.
 
-## 🚀 Features
+Features
+Home page with navigation
+Product listing page using API data
+Product details page
+Add new product using POST request
+Edit product using PUT request
+Delete product with confirmation modal
+Loading states and error handling
+Responsive design using React Bootstrap
 
-- 🏠 Home page with navigation
-- 🛍 Product listing page (API data)
-- 📄 Product details page
-- ➕ Add new product (POST)
-- ✏️ Edit product (PUT)
-- 🗑 Delete product (DELETE with confirmation)
-- 🔄 Loading states & error handling
-- 📱 Responsive design with React Bootstrap
+Tech Stack
+React (Vite)
+React Router DOM
+Axios or Fetch API
+React Bootstrap
+JavaScript (ES6+)
 
-## 🛠 Tech Stack
-
-- React (Vite)
-- React Router DOM
-- Axios / Fetch API
-- React Bootstrap
-
-## 📂 Project Structure
+Project Structure
 src/
-├── components/
-│   ├── NavigationBar.jsx
-│   ├── ProductCard.jsx
-│   └── DeleteModal.jsx
-├── pages/
-│   ├── Home.jsx
-│   ├── Products.jsx
-│   ├── ProductDetails.jsx
-│   ├── AddProduct.jsx
-│   └── EditProduct.jsx
-├── App.jsx
-├── main.jsx
-```
+components/
+NavigationBar.jsx
+ProductCard.jsx
+DeleteModal.jsx
+pages/
+Home.jsx
+Products.jsx
+ProductDetails.jsx
+AddProduct.jsx
+EditProduct.jsx
+App.jsx
+main.jsx
 
-## ▶️ How to Run
-
-```bash
+How to Run
 npm install
 npm run dev
-```
 
+Then open in browser:
+http://localhost:5173
 
-## 🌐 API Used
-
+API Used
 https://fakestoreapi.com/products
 
+Demo Video
+Submitted via Disco platform
 
-## 🎥 Demo Video
-(Upload your video in Disco — not here)
+Status
+Fully functional frontend app
+All CRUD operations implemented
+Routing and navigation working
+Error handling and loading states implemented
+Meets project requirements
 
-
-## ✅ Status
-
-✔ Fully functional frontend app  
-✔ All CRUD operations implemented  
-✔ Meets all project requirements  
-
-
-## 💡 Notes
-
-- API responses for POST/PUT/DELETE are simulated
-- Data does not persist after refresh
-
-
-## 👨‍💻 Author
-
-Your Name
-
-# fakestore-ecommerce-app
-React FakeStore E-Commerce App with CRUD operations using FakeStoreAPI, React Router, and Bootstrap.
->>>>>>> 1d678ef497228a3f99a7fef1ce4d524960831da0
+Notes
+FakeStoreAPI is a mock API so data does not persist after refresh
+POST, PUT, and DELETE requests are simulated responses
