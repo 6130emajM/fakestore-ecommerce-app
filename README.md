@@ -1,3 +1,4 @@
+
 # 🛍 FakeStore E-Commerce App
 
 ## 📌 Overview
@@ -73,3 +74,7 @@ https://fakestoreapi.com/products
 ## 👨‍💻 Author
 
 Your Name
+
+# fakestore-ecommerce-app
+React FakeStore E-Commerce App with CRUD operations using FakeStoreAPI, React Router, and Bootstrap.
+>>>>>>> 1d678ef497228a3f99a7fef1ce4d524960831da0
